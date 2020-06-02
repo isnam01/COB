@@ -324,3 +324,9 @@ body,
 	background-color: #ffd000;
 	border-color: #ffd000;
 }
+.book-ur-car select option {
+    color: #000;
+    font-weight: 400;
+    background: #fff;
+    text-transform: capitalize;
+}

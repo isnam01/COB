@@ -11,6 +11,8 @@ from PIL import Image
 import random,math
 from .models import Rented_Bikes
 
+
+
 # Create your views here.
 
 
@@ -106,6 +108,7 @@ def rent_now(request):
                 elif (dic['bike']=='Royal Enfield 200CC') :
                     amount=60
 
+
                 l.append(amount*duration)
                 response = redirect('invoice',l)
                 return response
@@ -200,6 +203,8 @@ def invoice(request,dic):
 
 
 
+
+
 def paymentDone(request,dic):
     dic = dic[1:-1]
     dic = dic.split(', ')
@@ -230,3 +235,6 @@ def about(request):
 def contact(request):
 
      return render(request,'contact.html')
+
+     
+     

@@ -25,7 +25,7 @@ SECRET_KEY = 'r+37khb8nfsrlq(+7@8p5#yn1klil3fx9d1$yr5ipgj6o@flgq'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['05327d3a8258.ngrok.io','127.0.0.1']
 
 
 # Application definition
@@ -108,7 +108,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Kolkata'
 
 USE_I18N = True
 

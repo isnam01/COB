@@ -12,16 +12,28 @@
     <title>CITY ON BIKES</title>
     <link href='https://fonts.googleapis.com/css?family=Amarante' rel='stylesheet'>
 
-    <!--=== Bootstrap CSS ===-->
+<!--=== Bootstrap CSS ===-->
+
     <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
     <!--=== FontAwesome CSS ===-->
-     <link rel="stylesheet" href="{% static 'font-awesome/css/font-awesome.min.css' %}">
+      <link rel="stylesheet" href="{% static 'font-awesome/css/font-awesome.min.css' %}">
     <!--=== Theme Reset CSS ===-->
      <link href="{% static 'css/reset.css' %}" rel="stylesheet">
+    <!--=== Slicknav CSS ===-->
+    <link href="{% static 'css/plugins/slicknav.min.css' %}" rel="stylesheet">
+    <!--=== Magnific Popup CSS ===-->
+    <link href="{% static 'css/plugins/magnific-popup.css' %}" rel="stylesheet">
+    <!--=== Owl Carousel CSS ===-->
+    <link href="{% static 'css/plugins/owl.carousel.min.css' %}" rel="stylesheet">
+    <!--=== Gijgo CSS ===-->
+    <link href="{% static 'css/plugins/gijgo.css' %}" rel="stylesheet">
+   
+    <link href="{% static 'css/style2.css' %}" rel="stylesheet">
+    <!--=== Responsive CSS ===-->
+        <link href="{% static 'css/responsive.css' %}" rel="stylesheet">
     <!--=== Main Style CSS ===-->
     <link rel="stylesheet" href="{% static 'css/style1.css' %}">
-    <!--=== Responsive CSS ===-->
-    <link href="{% static 'css/responsive.css' %}" rel="stylesheet">
+    
 
 </head>
 <div class="container">
@@ -205,7 +217,7 @@
                     <div class="col-lg-8 d-none d-xl-block">
                         <nav class="mainmenu alignright">
                             <ul>
-                                 <li><a href="#">RENT NOW</a></li>
+                                 <li class="active"><a href="#">RENT NOW</a></li>
                                 <li>
                                      <a href="{% url 'about' %}">About</a>
                                     
@@ -297,6 +309,7 @@
    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
     
     <script>
         
