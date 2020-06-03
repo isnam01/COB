@@ -13,7 +13,9 @@ To build a website where people can rent the bikes available at the nearest hub 
  # Setting Up Front end :
  
  1) Add a home page with a link to the Login and Signup .
+ ![](home.jpg.jpg)
  2) Add the sign up and Login pages .
+ ![](login.jpg)
  3) Create a model for user details .
  4) The model will save the details of the user .
  
@@ -30,12 +32,15 @@ To build a website where people can rent the bikes available at the nearest hub 
  # Create templates
  
  Create the About template 
+ ![](about.jpg)
  Create the Contact template 
+ ![](contact.jpg)
  Attach a modal displaying the bikes available to the navbar.
  
  # Book now
  Create a template that has a form that takes in the choice of the customer about bikes and time .
  Save that in the database .
+ ![](rent.jpg)
  
  #Authentication in views.py
  
@@ -74,10 +79,12 @@ Show/hide auth links in navbar
 # Invoice 
  
  generate an invoice of the data entered by the user and also generate the charge of the rent
+ ![](invoice.jpg)
  
 # Qrcode 
 
  Generate Qrcode and otp using the random library and qrcode generator.
+ ![](payment.jpg)
  
  Create a superuser for admin power
  
